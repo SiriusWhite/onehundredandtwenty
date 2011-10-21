@@ -530,7 +530,7 @@ var frontend = {
 		var repetitionString = "";
 		if (repetition !== undefined)
 			repetitionString = "<span>W<br />D<br />H</span>";
-		return "<li" + cssclass + " id='course-" + id + "'>" +repetitionString + course['kurz'] + "<button><div class='info clone-info'>Auf diesen Button klicken, um einen Kurs in einem anderen Semester noch einmal zu wiederholen.</div><!---->" + character + "</button>" + courseInfo + "</li>";
+		return "<li" + cssclass + " id='course-" + id + "'>" +repetitionString + course['kurz'] + "<button><div class='info clone-info'>Auf diesen Button klicken, um einen Kurs in einem anderen Semester noch einmal zu wiederholen.</div><!---->" + character + "</button>" + "<div class='grade'>2,7</div>" + courseInfo + "</li>";
 	},
 	/* used, when user starts drag'n'dropping courses */
 	startSorting: function() {

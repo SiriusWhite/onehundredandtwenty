@@ -227,6 +227,15 @@ section.semester-time {
 		margin-left: 7% !important;
 	}
 } 
+@media screen and (max-width: 1480px) {
+	.courses  {
+		font-size: 0.8em;
+	}
+	.courses li {
+		text-align: left !important;
+		padding-left: 10px;
+	}
+}
 section.semester-view {
 	margin: 0 auto;
 	width: 80%;
@@ -471,6 +480,12 @@ h1 span {
 	vertical-align: middle;
 	text-align: center;
 	font-size: 0.9em;
+}
+.courses li .grade {
+	position: absolute;
+	right: 25px;
+	bottom: 0;
+	line-height: 2.7em;
 }
 .courses li button:hover {
 	background: black;
